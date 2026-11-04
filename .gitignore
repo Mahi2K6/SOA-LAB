@@ -1,0 +1,14 @@
+# Build output
+target/
+logs/
+
+# Eclipse / IntelliJ / VS Code
+.project
+.classpath
+.settings/
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store

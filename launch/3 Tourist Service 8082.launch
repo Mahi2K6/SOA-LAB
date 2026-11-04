@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.ui.externaltools.ProgramLaunchConfigurationType">
+    <booleanAttribute key="org.eclipse.debug.core.capture_output" value="true"/>
+    <listAttribute key="org.eclipse.debug.ui.favoriteGroups">
+        <listEntry value="org.eclipse.ui.externaltools.launchGroup"/>
+    </listAttribute>
+    <booleanAttribute key="org.eclipse.ui.externaltools.ATTR_LAUNCH_IN_BACKGROUND" value="true"/>
+    <stringAttribute key="org.eclipse.ui.externaltools.ATTR_LOCATION" value="${system_property:java.home}/bin/java"/>
+    <stringAttribute key="org.eclipse.ui.externaltools.ATTR_TOOL_ARGUMENTS" value="-jar tourist-service/target/tourist-service-1.0.0.jar --server.port=8082"/>
+    <stringAttribute key="org.eclipse.ui.externaltools.ATTR_WORKING_DIRECTORY" value="${project_loc:smart-tourism}"/>
+</launchConfiguration>
